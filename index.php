@@ -40,20 +40,35 @@ include 'includes/header.php';
                                 </a>
                             </div>
                             <!-- Stats -->
-                            <div class="grid grid-cols-3 gap-8 pt-12 border-t border-gray-700">
-                                <div class="text-center">
-                                    <div class="text-4xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-3" data-target="500">0</div>
-                                    <div class="text-gray-400 text-sm font-semibold uppercase tracking-wide">Happy Clients</div>
-                                </div>
-                                <div class="text-center">
-                                    <div class="text-4xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-3" data-target="1000">0</div>
-                                    <div class="text-gray-400 text-sm font-semibold uppercase tracking-wide">Projects Completed</div>
-                                </div>
-                                <div class="text-center">
-                                    <div class="text-4xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-3" data-target="98">0</div>
-                                    <div class="text-gray-400 text-sm font-semibold uppercase tracking-wide">Success Rate</div>
-                                </div>
-                            </div>
+                           <div class="grid grid-cols-3 gap-8 pt-12 border-t border-gray-700">
+  <div class="text-center">
+    <div class="text-4xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-3">
+      30+
+    </div>
+    <div class="text-gray-400 text-sm font-semibold uppercase tracking-wide">
+      Happy Clients
+    </div>
+  </div>
+
+  <div class="text-center">
+    <div class="text-4xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-3">
+      50 Lakh+
+    </div>
+    <div class="text-gray-400 text-sm font-semibold uppercase tracking-wide">
+      Monthly Adspend
+    </div>
+  </div>
+
+  <div class="text-center">
+    <div class="text-4xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent mb-3">
+      15+
+    </div>
+    <div class="text-gray-400 text-sm font-semibold uppercase tracking-wide">
+      Team Size
+    </div>
+  </div>
+</div>
+
                         </div>
                         
                         <!-- Right Side - Services with Results -->

@@ -41,12 +41,21 @@
             background: rgba(17, 24, 39, 0.95); /* Slightly transparent dark background */
             backdrop-filter: blur(10px);
         }
+        /* Ticker animation */
+        .ticker {
+            animation: scroll 30s linear infinite;
+        }
+        @keyframes scroll {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
     </style>
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
 </head>
 <body class="bg-gray-900 text-white">
+    
     <!-- Full-page Background -->
     <div class="fixed inset-0 z-0">
         <div class="absolute inset-0 bg-gradient-to-br from-emerald-900/50 via-gray-900 to-teal-900/50"></div>
@@ -57,6 +66,7 @@
 
     <!-- Content Container -->
     <div class="content-container">
+        
         <!-- Navigation -->
         <nav class="fixed top-0 left-0 right-0 z-50 bg-gray-900/90 backdrop-filter backdrop-blur-lg">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -258,6 +268,53 @@
                 </div>
             </div>
         </nav>
+
+        <!-- Ticker Banner -->
+        <!-- <div class="bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-4 overflow-hidden mt-20">
+            <div class="flex whitespace-nowrap ticker">
+                <div class="flex items-center space-x-8 px-8">
+                    <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                    <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
+                    <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
+                    <span class="text-lg font-semibold italic">✦ Personal attention</span>
+                    <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                </div>
+                <div class="flex items-center space-x-8 px-8">
+                    <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                    <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
+                    <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
+                    <span class="text-lg font-semibold italic">✦ Personal attention</span>
+                    <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                </div>
+            </div>
+        </div> -->
+
+         <div class="bg-black text-emerald-400 py-4 overflow-hidden mt-20">
+            <div class="flex whitespace-nowrap ticker">
+                <div class="flex items-center space-x-8 px-8">
+                    <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                    <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
+                    <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
+                    <span class="text-lg font-semibold italic">✦ Personal attention</span>
+                    <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                </div>
+                <div class="flex items-center space-x-8 px-8">
+                    <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                    <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
+                    <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
+                    <span class="text-lg font-semibold italic">✦ Personal attention</span>
+                    <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                </div>
+            </div>
+        </div>
 
         <!-- Main Content -->
         <main class="flex-1">

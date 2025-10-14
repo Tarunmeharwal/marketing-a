@@ -1,7 +1,54 @@
 </main>
 
+
+          <!-- <div class="bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-4 overflow-hidden">
+        <div class="flex whitespace-nowrap ticker">
+            <div class="flex items-center space-x-8 px-8">
+                <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
+                <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
+                <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
+                <span class="text-lg font-semibold italic">✦ Personal attention</span>
+                <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
+                <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+            </div>
+            <div class="flex items-center space-x-8 px-8">
+                <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
+                <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
+                <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
+                <span class="text-lg font-semibold italic">✦ Personal attention</span>
+                <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
+                <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+            </div>
+        </div> -->
+            <div class="bg-black text-emerald-400 py-4 overflow-hidden mt-20">
+            <div class="flex whitespace-nowrap ticker">
+                <div class="flex items-center space-x-8 px-8">
+                    <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                    <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
+                    <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
+                    <span class="text-lg font-semibold italic">✦ Personal attention</span>
+                    <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                </div>
+                <div class="flex items-center space-x-8 px-8">
+                    <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                    <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
+                    <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
+                    <span class="text-lg font-semibold italic">✦ Personal attention</span>
+                    <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
+                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                </div>
+            </div>
+        </div>
+    </div>
+          
+
          <footer>
-                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
                     <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         <!-- Company Info -->
                         <div class="lg:col-span-2">
