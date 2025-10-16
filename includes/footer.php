@@ -1,132 +1,122 @@
-</main>
 
-
-          <!-- <div class="bg-gradient-to-r from-emerald-600 to-teal-600 text-white py-4 overflow-hidden">
-        <div class="flex whitespace-nowrap ticker">
-            <div class="flex items-center space-x-8 px-8">
-                <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
-                <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
-                <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
-                <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
-                <span class="text-lg font-semibold italic">✦ Personal attention</span>
-                <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
-                <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
-            </div>
-            <div class="flex items-center space-x-8 px-8">
-                <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
-                <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
-                <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
-                <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
-                <span class="text-lg font-semibold italic">✦ Personal attention</span>
-                <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
-                <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
-            </div>
-        </div> -->
-            <div class="bg-black text-emerald-400 py-4 overflow-hidden mt-20">
-            <div class="flex whitespace-nowrap ticker">
-                <div class="flex items-center space-x-8 px-8">
-                    <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
-                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
-                    <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
-                    <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
-                    <span class="text-lg font-semibold italic">✦ Personal attention</span>
-                    <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
-                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+    <!-- Footer -->
+    <footer class="py-16 px-6 border-t border-gray-800">
+        <div class="max-w-7xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-8 mb-12">
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <img src="assets/images/logo-white.svg" alt="Traffiqon" class="h-10 w-auto">
+                        <span class="ml-3 text-2xl font-bold">Traffiqon</span>
+                    </div>
+                    <p class="text-gray-400 mb-6 max-w-md">
+                        Premium digital marketing solutions that drive real results. We help businesses maximize their online presence and grow their revenue.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors duration-200">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors duration-200">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors duration-200">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 bg-gray-800 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors duration-200">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
                 </div>
-                <div class="flex items-center space-x-8 px-8">
-                    <span class="text-lg font-semibold italic">✦ Data-driven strategy</span>
-                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
-                    <span class="text-lg font-semibold italic">✦ Continuous optimization</span>
-                    <span class="text-lg font-semibold italic">✦ Flexible collaboration</span>
-                    <span class="text-lg font-semibold italic">✦ Personal attention</span>
-                    <span class="text-lg font-semibold italic">✦ Results-oriented strategy</span>
-                    <span class="text-lg font-semibold italic">✦ Transparency and insight</span>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="meta-ads.php" class="text-gray-400 hover:text-emerald-600 transition-colors">Meta Ads</a></li>
+                        <li><a href="google-ads.php" class="text-gray-400 hover:text-emerald-600 transition-colors">Google Ads</a></li>
+                        <li><a href="youtube-ads.php" class="text-gray-400 hover:text-emerald-600 transition-colors">YouTube Ads</a></li>
+                        <li><a href="website-development.php" class="text-gray-400 hover:text-emerald-600 transition-colors">Web Development</a></li>
+                    </ul>
                 </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="about.php" class="text-gray-400 hover:text-emerald-600 transition-colors">About Us</a></li>
+                        <li><a href="contact.php" class="text-gray-400 hover:text-emerald-600 transition-colors">Contact</a></li>
+                        <li><a href="privacy-policy.php" class="text-gray-400 hover:text-emerald-600 transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Marketing Avedh. All rights reserved.</p>
             </div>
         </div>
-    </div>
-          
+    </footer>
 
-         <footer>
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-                    <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                        <!-- Company Info -->
-                        <div class="lg:col-span-2">
-                            <div class="flex items-center mb-6">
-                                <img src="assets/images/logo-white.svg" alt="Traffiqon Logo" class="h-10 w-auto">
-                                <span class="ml-3 text-2xl font-bold bg-gradient-to-r from-emerald-400 to-teal-400 bg-clip-text text-transparent">Traffiqon</span>
-                            </div>
-                            <p class="text-gray-400 mb-6 max-w-md">
-                                We help businesses scale their digital presence through expert marketing strategies, cutting-edge technology, and data-driven results.
-                            </p>
-                            <div class="flex space-x-4">
-                                <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors duration-200">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors duration-200">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors duration-200">
-                                    <i class="fab fa-instagram"></i>
-                                </a>
-                                <a href="#" class="w-10 h-10 bg-gray-700 rounded-lg flex items-center justify-center hover:bg-emerald-600 transition-colors duration-200">
-                                    <i class="fab fa-linkedin-in"></i>
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <!-- Services -->
-                        <div>
-                            <h3 class="text-lg font-semibold text-white mb-6">Services</h3>
-                            <ul class="space-y-3">
-                                <li><a href="meta-ads.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">Meta Ads</a></li>
-                                <li><a href="google-ads.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">Google Ads</a></li>
-                                <li><a href="youtube-ads.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">YouTube Ads</a></li>
-                                <li><a href="website-development.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">Website Development</a></li>
-                                <li><a href="services.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">All Services</a></li>
-                            </ul>
-                        </div>
-                        
-                        <!-- Company -->
-                        <div>
-                            <h3 class="text-lg font-semibold text-white mb-6">Company</h3>
-                            <ul class="space-y-3">
-                                <li><a href="about.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">About Us</a></li>
-                                <li><a href="portfolio.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">Portfolio</a></li>
-                                <li><a href="contact.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">Contact</a></li>
-                                <li><a href="privacy-policy.html" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">Privacy Policy</a></li>
-                                <li><a href="#" class="text-gray-400 hover:text-emerald-400 transition-colors duration-200">Terms of Service</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    
-                    <div class="border-t border-gray-700 mt-12 pt-8">
-                        <div class="flex flex-col md:flex-row justify-between items-center">
-                            <p class="text-gray-400 text-sm">© 2024 Traffiqon. All rights reserved.</p>
-                            <p class="text-gray-400 text-sm mt-4 md:mt-0">Made with ❤️ for growing businesses</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
-        <!-- Scripts -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script src="assets/js/main.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button')?.addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
         
-        <script>
-            // Initialize AOS
-            AOS.init({
-                duration: 800,
-                easing: 'ease-in-out',
-                once: true
+        // Toggle switches functionality
+        document.querySelectorAll('.toggle-switch').forEach(toggle => {
+            toggle.addEventListener('click', function() {
+                this.classList.toggle('active');
+                const label = this.querySelector('.toggle-label');
+                label.textContent = this.classList.contains('active') ? 'ON' : 'OFF';
             });
+        });
+        
+        // Counter animation for stats
+        const counters = document.querySelectorAll('[data-target]');
+        const speed = 200;
+        
+        const animateCounter = (counter) => {
+            const target = +counter.getAttribute('data-target');
+            const count = +counter.innerText;
+            const increment = target / speed;
             
-            // Mobile menu toggle
-            document.getElementById('mobile-menu-button').addEventListener('click', function() {
-                const mobileMenu = document.getElementById('mobile-menu');
-                mobileMenu.classList.toggle('hidden');
+            if (count < target) {
+                counter.innerText = Math.ceil(count + increment);
+                setTimeout(() => animateCounter(counter), 1);
+            } else {
+                counter.innerText = target + (target === 98 ? '%' : '+');
+            }
+        };
+        
+        // Intersection Observer for counter animation
+        const observerOptions = {
+            threshold: 0.5
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const counter = entry.target;
+                    if (counter.innerText === '0') {
+                        animateCounter(counter);
+                    }
+                }
             });
-        </script>
-    </div>
+        }, observerOptions);
+        
+        counters.forEach(counter => observer.observe(counter));
+        
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
