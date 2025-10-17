@@ -5,7 +5,7 @@ include 'includes/header.php';
 ?>
 
     <!-- Hero Section -->
-    <section class="relative pt-32 pb-20 px-6 overflow-hidden">
+    <section class="relative">
         <div class="absolute inset-0 z-0">
             <div class="moving-circle circle-1"></div>
             <div class="moving-circle circle-2"></div>
