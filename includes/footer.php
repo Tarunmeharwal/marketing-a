@@ -5,7 +5,6 @@
             <div class="grid md:grid-cols-4 gap-8 mb-12">
                 <div class="md:col-span-2">
                     <div class="flex items-center mb-6">
-                        <img src="assets/images/logo-white.svg" alt="Traffiqon" class="h-10 w-auto">
                         <span class="ml-3 text-2xl font-bold">Traffiqon</span>
                     </div>
                     <p class="text-gray-400 mb-6 max-w-md">
@@ -42,16 +41,25 @@
                     <ul class="space-y-2">
                         <li><a href="about.php" class="text-gray-400 hover:text-emerald-600 transition-colors">About Us</a></li>
                         <li><a href="contact.php" class="text-gray-400 hover:text-emerald-600 transition-colors">Contact</a></li>
-                        <li><a href="privacy-policy.php" class="text-gray-400 hover:text-emerald-600 transition-colors">Privacy Policy</a></li>
+                        <li><a href="services.php" class="text-gray-400 hover:text-emerald-600 transition-colors">All Services</a></li>
                     </ul>
                 </div>
             </div>
             
             <div class="border-t border-gray-800 pt-8 text-center">
-                <p class="text-gray-400">&copy; 2024 Marketing Avedh. All rights reserved.</p>
+                <p class="text-gray-400">&copy; 2024 Traffiqon. All rights reserved.</p>
             </div>
         </div>
     </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" 
+       class="fixed bottom-6 right-6 z-50 w-14 h-14 bg-green-500 hover:bg-green-600 rounded-full flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 group">
+        <i class="fab fa-whatsapp text-white text-2xl"></i>
+        <div class="absolute right-16 bg-gray-800 text-white px-3 py-2 rounded-lg text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-300 whitespace-nowrap">
+            Chat with us on WhatsApp
+        </div>
+    </a>
 
     <script>
         // Mobile menu toggle

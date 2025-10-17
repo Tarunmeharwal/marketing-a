@@ -73,8 +73,8 @@ include 'includes/header.php';
                     <!-- Meta Ads Toggle -->
                     <div class="flex items-center justify-between glass-effect rounded-xl p-4 shadow-lg">
                         <div class="flex items-center">
-                            <div class="w-12 h-12 bg-gradient-to-r from-blue-500 to-blue-600 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fab fa-facebook text-white text-xl"></i>
+                            <div class="w-14 h-10 flex items-center justify-center mr-4">
+                                <img src="assets/images/Meta Png.png" alt="Meta" class="w-14 h-10">
                             </div>
                             <span class="text-white font-semibold">Meta Ads</span>
                         </div>
@@ -89,8 +89,8 @@ include 'includes/header.php';
                     <!-- Google Ads Toggle -->
                     <div class="flex items-center justify-between glass-effect rounded-xl p-4 shadow-lg">
                         <div class="flex items-center">
-                            <div class="w-12 h-12 bg-gradient-to-r from-red-500 to-red-600 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fab fa-google text-white text-xl"></i>
+                            <div class="w-14 h-10 flex items-center justify-center mr-4">
+                                <img src="assets/images/Google Ads Png -.png" alt="Google Ads" class="w-14 h-10">
                             </div>
                             <span class="text-white font-semibold">Google Ads</span>
                         </div>
@@ -102,11 +102,27 @@ include 'includes/header.php';
                         </div>
                     </div>
                     
+                    <!-- YouTube Ads Toggle -->
+                    <div class="flex items-center justify-between glass-effect rounded-xl p-4 shadow-lg">
+                        <div class="flex items-center">
+                            <div class="w-14 h-10 flex items-center justify-center mr-4">
+                                <img src="assets/images/YouTube Png.png" alt="YouTube" class="w-14 h-10">
+                            </div>
+                            <span class="text-white font-semibold">YouTube Ads</span>
+                        </div>
+                        <div class="toggle-switch" data-service="youtube">
+                            <div class="toggle-track">
+                                <div class="toggle-thumb"></div>
+                            </div>
+                            <span class="toggle-label">OFF</span>
+                        </div>
+                    </div>
+                    
                     <!-- Website Development Toggle -->
                     <div class="flex items-center justify-between glass-effect rounded-xl p-4 shadow-lg">
                         <div class="flex items-center">
-                            <div class="w-12 h-12 bg-gradient-to-r from-purple-500 to-purple-600 rounded-lg flex items-center justify-center mr-4">
-                                <i class="fas fa-code text-white text-xl"></i>
+                            <div class="w-14 h-10 flex items-center justify-center mr-4">
+                                <img src="assets/images/Html Png.png" alt="Web Development" class="w-14 h-10">
                             </div>
                             <span class="text-white font-semibold">Website Development</span>
                         </div>
@@ -182,51 +198,51 @@ include 'includes/header.php';
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Meta Ads -->
                 <div class="glass-effect rounded-3xl p-8 card-hover meta-card border border-gray-700">
-                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-r from-blue-500 to-blue-600">
-                        <i class="fab fa-facebook text-white text-2xl"></i>
+                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <img src="assets/images/Meta Png.png" alt="Meta Ads" class="w-12 h-12 object-contain">
                     </div>
                     <span class="bg-blue-500/20 text-blue-400 text-xs px-3 py-1 rounded-full">SOCIAL MEDIA</span>
                     <h3 class="text-2xl font-bold mt-4 mb-3">Meta Ads</h3>
                     <p class="text-gray-400 mb-4">Facebook & Instagram advertising campaigns that drive targeted traffic</p>
-                    <a href="meta-ads.html" class="text-blue-400 font-semibold hover:opacity-80">Learn More →</a>
+                    <a href="meta-ads.php" class="text-blue-400 font-semibold hover:opacity-80">Learn More →</a>
                 </div>
 
                 <!-- Google Ads -->
                 <div class="glass-effect rounded-3xl p-8 card-hover google-card border border-gray-700">
-                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-r from-red-500 to-red-600">
-                        <i class="fab fa-google text-white text-2xl"></i>
+                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <img src="assets/images/Google Ads Png -.png" alt="Google Ads" class="w-12 h-12 object-contain">
                     </div>
                     <span class="bg-red-500/20 text-red-400 text-xs px-3 py-1 rounded-full">SEARCH ADS</span>
                     <h3 class="text-2xl font-bold mt-4 mb-3">Google Ads</h3>
                     <p class="text-gray-400 mb-4">Search and display advertising on the world's largest platform</p>
-                    <a href="google-ads.html" class="text-red-400 font-semibold hover:opacity-80">Learn More →</a>
+                    <a href="google-ads.php" class="text-red-400 font-semibold hover:opacity-80">Learn More →</a>
                 </div>
 
                 <!-- YouTube Ads -->
                 <div class="glass-effect rounded-3xl p-8 card-hover youtube-card border border-gray-700">
-                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-r from-red-500 to-red-600">
-                        <i class="fab fa-youtube text-white text-2xl"></i>
+                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <img src="assets/images/YouTube Png.png" alt="YouTube Ads" class="w-12 h-12 object-contain">
                     </div>
                     <span class="bg-red-500/20 text-red-400 text-xs px-3 py-1 rounded-full">VIDEO ADS</span>
                     <h3 class="text-2xl font-bold mt-4 mb-3">YouTube Ads</h3>
                     <p class="text-gray-400 mb-4">Video advertising that converts viewers into customers</p>
-                    <a href="youtube-ads.html" class="text-red-400 font-semibold hover:opacity-80">Learn More →</a>
+                    <a href="youtube-ads.php" class="text-red-400 font-semibold hover:opacity-80">Learn More →</a>
                 </div>
 
                 <!-- Website Development -->
                 <div class="glass-effect rounded-3xl p-8 card-hover web-card border border-gray-700">
-                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 bg-gradient-to-r from-purple-500 to-purple-600">
-                        <i class="fas fa-code text-white text-2xl"></i>
+                    <div class="w-16 h-16 rounded-2xl flex items-center justify-center mb-6">
+                        <img src="assets/images/Html Png.png" alt="Web Development" class="w-12 h-12 object-contain">
                     </div>
                     <span class="bg-purple-500/20 text-purple-400 text-xs px-3 py-1 rounded-full">DEVELOPMENT</span>
                     <h3 class="text-2xl font-bold mt-4 mb-3">Web Development</h3>
                     <p class="text-gray-400 mb-4">Custom websites that convert visitors into customers</p>
-                    <a href="website-development.html" class="text-purple-400 font-semibold hover:opacity-80">Learn More →</a>
+                    <a href="website-development.php" class="text-purple-400 font-semibold hover:opacity-80">Learn More →</a>
                 </div>
             </div>
             
             <div class="text-center mt-12">
-                <a href="services.html" class="glow-button px-8 py-4 rounded-full font-bold text-lg inline-block">
+                <a href="services.php" class="glow-button px-8 py-4 rounded-full font-bold text-lg inline-block">
                     View All Services
                 </a>
             </div>
@@ -288,7 +304,7 @@ include 'includes/header.php';
                             <span class="text-lg text-gray-300">Proven Results</span>
                         </div>
                     </div>
-                    <a href="about.html" class="glow-button px-8 py-4 rounded-full font-bold text-lg inline-block">
+                    <a href="about.php" class="glow-button px-8 py-4 rounded-full font-bold text-lg inline-block">
                         Learn More About Us
                     </a>
                 </div>
@@ -367,6 +383,113 @@ include 'includes/header.php';
             </div>
         </div>
     </section>
+
+<style>
+/* Inline Toggle Styles */
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+.toggle-track {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #374151;
+  border-radius: 12px;
+  transition: all 0.8s ease;
+  cursor: pointer;
+  border: 1px solid #4b5563;
+}
+
+.toggle-track.active {
+  background-color: #10b981;
+  border-color: #059669;
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 0.8s ease;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+.toggle-thumb.active {
+  transform: translateX(26px);
+  background-color: #f0fdf4;
+}
+
+.toggle-label {
+  margin-left: 8px;
+  font-size: 11px;
+  font-weight: 600;
+  color: #9ca3af;
+  transition: all 0.8s ease;
+  display: inline-block;
+  min-width: 25px;
+}
+
+.toggle-label.active {
+  color: #10b981;
+  font-weight: 700;
+}
+
+.results-box.animate {
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.02); }
+}
+</style>
+
+<script>
+// Toggle Animation - Immediate Activation
+document.addEventListener('DOMContentLoaded', function() {
+    function activateToggle(serviceName) {
+        const toggle = document.querySelector('[data-service="' + serviceName + '"]');
+        
+        if (toggle) {
+            const track = toggle.querySelector('.toggle-track');
+            const thumb = toggle.querySelector('.toggle-thumb');
+            const label = toggle.querySelector('.toggle-label');
+            
+            if (track && thumb && label) {
+                track.classList.add('active');
+                thumb.classList.add('active');
+                label.classList.add('active');
+                label.textContent = 'ON';
+            }
+        }
+    }
+    
+    // Activate toggles with slow staggered timing
+    activateToggle('meta');
+    setTimeout(function() { activateToggle('google'); }, 1000);
+    setTimeout(function() { activateToggle('youtube'); }, 2000);
+    setTimeout(function() { activateToggle('website'); }, 3000);
+    
+    // Animate results box
+    setTimeout(function() {
+        const resultsBox = document.querySelector('.results-box');
+        if (resultsBox) {
+            resultsBox.classList.add('animate');
+        }
+    }, 4000);
+});
+</script>
 
 <?php
 // Include Footer

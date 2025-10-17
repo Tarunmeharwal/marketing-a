@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marketing Avedh - Premium Digital Marketing Solutions</title>
+    <title>Traffiqon - Premium Digital Marketing Solutions</title>
     <meta name="description" content="Premium digital marketing services for global success. SEO, PPC, Social Media Marketing and more.">
     
     <script src="https://cdn.tailwindcss.com"></script>
@@ -186,16 +186,22 @@
             background: linear-gradient(90deg, rgba(88, 114, 255, 0.1) 0%, rgba(88, 114, 255, 0.2) 100%);
         }
 
-        /* Solar System Animation Styles */
+        /* Enhanced Solar System Animation Styles */
         .solar-system {
             position: absolute;
             top: 50%;
             left: 50%;
             transform: translate(-50%, -50%);
-            width: 600px;
-            height: 600px;
-            z-index: 0;
-            opacity: 0.3;
+            width: 400px;
+            height: 400px;
+            z-index: 1;
+            opacity: 0.2;
+            animation: solarPulse 8s ease-in-out infinite;
+        }
+
+        @keyframes solarPulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); }
+            50% { transform: translate(-50%, -50%) scale(1.05); }
         }
 
         .ring {
@@ -203,13 +209,39 @@
             border: 1px solid rgba(88, 114, 255, 0.4);
             border-radius: 50%;
             animation: rotate 20s linear infinite;
+            box-shadow: 0 0 20px rgba(88, 114, 255, 0.1);
         }
 
-        .ring-1 { width: 100px; height: 100px; top: 250px; left: 250px; animation-duration: 15s; }
-        .ring-2 { width: 200px; height: 200px; top: 200px; left: 200px; animation-duration: 18s; }
-        .ring-3 { width: 300px; height: 300px; top: 150px; left: 150px; animation-duration: 22s; }
-        .ring-4 { width: 400px; height: 400px; top: 100px; left: 100px; animation-duration: 25s; }
-        .ring-5 { width: 500px; height: 500px; top: 50px; left: 50px; animation-duration: 28s; }
+        .ring-1 { 
+            width: 60px; height: 60px; top: 170px; left: 170px; 
+            animation-duration: 12s; 
+            border-color: rgba(16, 185, 129, 0.6);
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+        }
+        .ring-2 { 
+            width: 120px; height: 120px; top: 140px; left: 140px; 
+            animation-duration: 16s; 
+            border-color: rgba(59, 130, 246, 0.5);
+            box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
+        }
+        .ring-3 { 
+            width: 180px; height: 180px; top: 110px; left: 110px; 
+            animation-duration: 20s; 
+            border-color: rgba(139, 92, 246, 0.4);
+            box-shadow: 0 0 25px rgba(139, 92, 246, 0.1);
+        }
+        .ring-4 { 
+            width: 240px; height: 240px; top: 80px; left: 80px; 
+            animation-duration: 24s; 
+            border-color: rgba(236, 72, 153, 0.3);
+            box-shadow: 0 0 30px rgba(236, 72, 153, 0.08);
+        }
+        .ring-5 { 
+            width: 300px; height: 300px; top: 50px; left: 50px; 
+            animation-duration: 28s; 
+            border-color: rgba(245, 158, 11, 0.2);
+            box-shadow: 0 0 35px rgba(245, 158, 11, 0.05);
+        }
 
         @keyframes rotate {
             from { transform: rotate(0deg); }
@@ -218,35 +250,95 @@
 
         .shooting-star {
             position: absolute;
-            width: 2px;
-            height: 2px;
-            background: white;
-            box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
-            animation: shoot 3s linear infinite;
+            width: 3px;
+            height: 3px;
+            background: linear-gradient(45deg, #ffffff, #10b981);
+            border-radius: 50%;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.9), 0 0 30px rgba(16, 185, 129, 0.5);
+            animation: shoot 4s linear infinite;
             opacity: 0;
         }
 
+        .shooting-star:nth-child(1) { top: 25px; left: 275px; animation-delay: 0s; }
+        .shooting-star:nth-child(2) { top: 75px; left: 325px; animation-delay: 2s; }
+        .shooting-star:nth-child(3) { top: 150px; left: 350px; animation-delay: 4s; }
+
         @keyframes shoot {
-            0% { transform: translate(0, 0); opacity: 0; }
-            10% { opacity: 1; }
-            50% { opacity: 0.8; }
-            100% { transform: translate(-600px, 600px); opacity: 0; }
+            0% { transform: translate(0, 0) scale(0); opacity: 0; }
+            10% { transform: translate(5px, 5px) scale(1); opacity: 1; }
+            50% { transform: translate(-100px, 100px) scale(1.2); opacity: 0.8; }
+            100% { transform: translate(-300px, 300px) scale(0); opacity: 0; }
         }
 
         .moving-circle {
             position: absolute;
-            background: rgba(88, 114, 255, 0.2);
+            background: radial-gradient(circle, rgba(88, 114, 255, 0.4), rgba(88, 114, 255, 0.1));
             border-radius: 50%;
-            animation: fadeMove 5s ease-in-out infinite;
+            animation: fadeMove 6s ease-in-out infinite;
+            box-shadow: 0 0 20px rgba(88, 114, 255, 0.3);
         }
 
-        .circle-1 { width: 20px; height: 20px; top: 100px; left: 100px; animation-delay: 0s; }
-        .circle-2 { width: 15px; height: 15px; top: 300px; left: 500px; animation-delay: 1s; }
-        .circle-3 { width: 25px; height: 25px; top: 500px; left: 200px; animation-delay: 2s; }
+        .circle-1 { 
+            width: 15px; height: 15px; top: 50px; left: 50px; 
+            animation-delay: 0s; 
+            background: radial-gradient(circle, rgba(16, 185, 129, 0.6), rgba(16, 185, 129, 0.1));
+            box-shadow: 0 0 15px rgba(16, 185, 129, 0.4);
+        }
+        .circle-2 { 
+            width: 12px; height: 12px; top: 150px; left: 250px; 
+            animation-delay: 1.5s; 
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.5), rgba(59, 130, 246, 0.1));
+            box-shadow: 0 0 12px rgba(59, 130, 246, 0.3);
+        }
+        .circle-3 { 
+            width: 18px; height: 18px; top: 250px; left: 100px; 
+            animation-delay: 3s; 
+            background: radial-gradient(circle, rgba(139, 92, 246, 0.4), rgba(139, 92, 246, 0.1));
+            box-shadow: 0 0 18px rgba(139, 92, 246, 0.3);
+        }
 
         @keyframes fadeMove {
-            0%, 100% { opacity: 0.2; transform: translateY(0); }
-            50% { opacity: 0.5; transform: translateY(-30px); }
+            0%, 100% { 
+                opacity: 0.2; 
+                transform: translateY(0) scale(1); 
+            }
+            25% { 
+                opacity: 0.6; 
+                transform: translateY(-20px) scale(1.1); 
+            }
+            50% { 
+                opacity: 0.8; 
+                transform: translateY(-40px) scale(1.2); 
+            }
+            75% { 
+                opacity: 0.4; 
+                transform: translateY(-20px) scale(0.9); 
+            }
+        }
+
+        /* Add floating particles */
+        .solar-system::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+            animation: centerGlow 3s ease-in-out infinite;
+        }
+
+        @keyframes centerGlow {
+            0%, 100% { 
+                transform: translate(-50%, -50%) scale(1);
+                box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+            }
+            50% { 
+                transform: translate(-50%, -50%) scale(1.5);
+                box-shadow: 0 0 20px rgba(255, 255, 255, 0.9), 0 0 40px rgba(16, 185, 129, 0.3);
+            }
         }
     </style>
 </head>
@@ -267,6 +359,7 @@
                 </button>
                 <div class="hidden lg:flex items-center space-x-8">
                     <a href="index.php" class="text-gray-300 hover:text-primary font-medium transition-colors">Home</a>
+                    <a href="about.php" class="text-gray-300 hover:text-primary font-medium transition-colors">About</a>
                     
                     <!-- Services Dropdown -->
                     <div class="relative group">
@@ -277,27 +370,25 @@
                         <div class="absolute top-full left-0 mt-3 w-64 dropdown-menu rounded-xl shadow-2xl opacity-0 invisible translate-y-[-10px] group-hover:opacity-100 group-hover:visible group-hover:translate-y-0 transition-all duration-300 z-50">
                             <div class="py-3">
                                 <a href="services.php" class="block px-6 py-3 text-gray-300 hover:bg-primary/50 hover:text-primary transition-all">
-                                    <i class="fas fa-th-large mr-3"></i>All Services
+                                    <i class="fas fa-th-large mr-3 text-lg"></i>All Services
                                 </a>
                                 <a href="meta-ads.php" class="block px-6 py-3 text-gray-300 hover:bg-primary/50 hover:text-blue-400 transition-all">
-                                    <i class="fab fa-facebook mr-3"></i>Meta Ads
+                                    <img src="assets/images/Meta Png.png" alt="Meta" class="w-7 h-7 mr-3 inline-block object-contain">Meta Ads
                                 </a>
                                 <a href="google-ads.php" class="block px-6 py-3 text-gray-300 hover:bg-primary/50 hover:text-red-400 transition-all">
-                                    <i class="fab fa-google mr-3"></i>Google Ads
+                                    <img src="assets/images/Google Ads Png -.png" alt="Google Ads" class="w-7 h-7 mr-3 inline-block object-contain">Google Ads
                                 </a>
                                 <a href="youtube-ads.php" class="block px-6 py-3 text-gray-300 hover:bg-primary/50 hover:text-red-500 transition-all">
-                                    <i class="fab fa-youtube mr-3"></i>YouTube Ads
+                                    <img src="assets/images/YouTube Png.png" alt="YouTube" class="w-7 h-7 mr-3 inline-block object-contain">YouTube Ads
                                 </a>
                                 <a href="website-development.php" class="block px-6 py-3 text-gray-300 hover:bg-primary/50 hover:text-purple-400 transition-all">
-                                    <i class="fas fa-code mr-3"></i>Website Development
+                                    <img src="assets/images/Html Png.png" alt="Web Development" class="w-7 h-7 mr-3 inline-block object-contain">Website Development
                                 </a>
                             </div>
                         </div>
                     </div>
                     
-                    <a href="about.php" class="text-gray-300 hover:text-primary font-medium transition-colors">About</a>
-                    <a href="contact.php" class="text-gray-300 hover:text-primary font-medium transition-colors">Contact</a>
-                    <a href="#contact" class="glow-button px-6 py-2.5 rounded-full font-semibold">
+                    <a href="contact.php" class="glow-button px-6 py-2.5 rounded-full font-semibold">
                         Let's Talk
                     </a>
                 </div>
@@ -311,15 +402,23 @@
                         <div class="text-gray-300 font-semibold mb-2">Services</div>
                         <div class="pl-4 space-y-2">
                             <a href="services.php" class="text-gray-400 hover:text-primary block py-1">All Services</a>
-                            <a href="meta-ads.php" class="text-gray-400 hover:text-blue-400 block py-1">Meta Ads</a>
-                            <a href="google-ads.php" class="text-gray-400 hover:text-red-400 block py-1">Google Ads</a>
-                            <a href="youtube-ads.php" class="text-gray-400 hover:text-red-500 block py-1">YouTube Ads</a>
-                            <a href="website-development.php" class="text-gray-400 hover:text-purple-400 block py-1">Website Development</a>
+                            <a href="meta-ads.php" class="text-gray-400 hover:text-blue-400 block py-1 flex items-center">
+                                <img src="assets/images/Meta Png.png" alt="Meta" class="w-6 h-6 mr-3 object-contain">Meta Ads
+                            </a>
+                            <a href="google-ads.php" class="text-gray-400 hover:text-red-400 block py-1 flex items-center">
+                                <img src="assets/images/Google Ads Png -.png" alt="Google Ads" class="w-6 h-6 mr-3 object-contain">Google Ads
+                            </a>
+                            <a href="youtube-ads.php" class="text-gray-400 hover:text-red-500 block py-1 flex items-center">
+                                <img src="assets/images/YouTube Png.png" alt="YouTube" class="w-6 h-6 mr-3 object-contain">YouTube Ads
+                            </a>
+                            <a href="website-development.php" class="text-gray-400 hover:text-purple-400 block py-1 flex items-center">
+                                <img src="assets/images/Html Png.png" alt="Web Development" class="w-6 h-6 mr-3 object-contain">Website Development
+                            </a>
                         </div>
                     </div>
                     <a href="about.php" class="text-gray-300 hover:text-primary block px-3 py-2 font-medium">About</a>
-                    <a href="portfolio.php" class="text-gray-300 hover:text-primary block px-3 py-2 font-medium">Portfolio</a>
-                    <a href="contact.php" class="glow-button block px-3 py-2 font-medium rounded-lg mx-3 mt-2 text-center">Contact</a>
+                    <a href="services.php" class="text-gray-300 hover:text-primary block px-3 py-2 font-medium">Portfolio</a>
+                    <a href="contact.php" class="glow-button block px-3 py-2 font-medium rounded-lg mx-3 mt-2 text-center">Let's Talk</a>
                 </div>
             </div>
         </div>
