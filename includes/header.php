@@ -195,7 +195,7 @@
             width: 400px;
             height: 400px;
             z-index: 1;
-            opacity: 0.2;
+            opacity: 0.1;
             animation: solarPulse 8s ease-in-out infinite;
         }
 
